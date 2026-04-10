@@ -113,7 +113,7 @@ export const projetos = [
       "Aplicação web para geração de QR Codes PIX personalizados com documentação de API inclusa.",
     tecnologias: ["Next.js", "React", "TypeScript", "Node.js"],
     imagem: "/imgs/pix-gen/img1.png",
-    link: null,
+    link: "https://pixgen.ed-engprojetos.com.br",
     categoria: "web",
   },
   {
