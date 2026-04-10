@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata = {
   title: "Elias Junior | Portfólio",
   description:
-    "Portfólio profissional de Elias Junior Cunha - Desenvolvedor Full Stack e Engenheiro Civil",
+    "Portfólio profissional de Elias Junior - Desenvolvedor Full Stack e Engenheiro Civil",
   keywords: [
     "Desenvolvedor Full Stack",
     "React",
@@ -19,7 +19,7 @@ export const metadata = {
     "Engenheiro Civil",
     "Portfólio",
   ],
-  authors: [{ name: "Elias Junior Cunha" }],
+  authors: [{ name: "Elias Junior" }],
 };
 
 export default function RootLayout({ children }) {

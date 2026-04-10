@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025 Elias Junior Cunha. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Elias Junior. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

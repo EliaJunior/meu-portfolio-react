@@ -78,7 +78,7 @@ npm run build
 
 ## 👤 Autor
 
-**Elias Junior Cunha**
+**Elias Junior**
 - GitHub: [@EliaJunior](https://github.com/EliaJunior)
 - LinkedIn: [Elias Junior](https://www.linkedin.com/in/elias-junior-b45335174/)
 - Email: engeliascunha@gmail.com

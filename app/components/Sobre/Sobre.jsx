@@ -42,7 +42,7 @@ export default function Sobre() {
           <div className="sobre-avatar">
             <Image
               src="/elias.jpg"
-              alt="Elias Junior Cunha"
+              alt="Elias Junior"
               width={120}
               height={120}
               className="avatar-foto"
@@ -51,7 +51,7 @@ export default function Sobre() {
           </div>
           <div className="sobre-texto">
             <p>
-              Sou <strong>Elias Junior Cunha</strong>, Desenvolvedor Full Stack
+              Sou <strong>Elias Junior</strong>, Desenvolvedor Full Stack
               e Engenheiro Civil. Atuo com desenvolvimento web utilizando React,
               Next.js, Node.js e TypeScript, além de soluções desktop em VBA com
               integração a bancos de dados SQLite e MySQL.
