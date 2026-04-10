@@ -1,0 +1,92 @@
+/* ============================================================
+   CARD DE PROJETO
+   ============================================================ */
+.projeto-card {
+  background-color: var(--cor-branco);
+  border-radius: var(--radius);
+  border: 1px solid var(--cor-borda);
+  overflow: hidden;
+  box-shadow: var(--sombra-card);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.projeto-img-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: var(--cor-fundo-alt);
+}
+
+.projeto-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.projeto-card:hover .projeto-img-wrapper img {
+  transform: scale(1.05);
+}
+
+.projeto-info {
+  padding: 20px;
+}
+
+.projeto-info h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--cor-primaria);
+  margin-bottom: 8px;
+}
+
+.projeto-info p {
+  font-size: 0.85rem;
+  color: var(--cor-texto-light);
+  margin-bottom: 14px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.projeto-techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.projeto-tech {
+  background-color: var(--cor-fundo-alt);
+  border: 1px solid var(--cor-borda);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: var(--cor-texto);
+  transition: all 0.2s ease;
+}
+
+.projeto-tech:hover {
+  border-color: var(--cor-accent);
+  color: var(--cor-accent);
+}
+
+.projeto-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* ============================================================
+   RESPONSIVIDADE — CARD
+   ============================================================ */
+@media (max-width: 480px) {
+  .projeto-img-wrapper {
+    height: 160px;
+  }
+}

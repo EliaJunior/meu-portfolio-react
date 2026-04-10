@@ -1,0 +1,108 @@
+/* ============================================================
+   SEÇÃO — SOBRE
+   ============================================================ */
+.sobre-section {
+  padding: 80px 0;
+}
+
+.sobre-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.sobre-avatar {
+  flex-shrink: 0;
+}
+
+.avatar-foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(26, 54, 93, 0.2);
+  border: 3px solid var(--cor-accent);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar-foto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 32px rgba(26, 54, 93, 0.3);
+}
+
+.sobre-texto p {
+  margin-bottom: 16px;
+  color: var(--cor-texto);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.skills-container {
+  margin-top: 24px;
+}
+
+.skills-container h3 {
+  font-size: 1.2rem;
+  color: var(--cor-primaria);
+  margin-bottom: 16px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.skill-group h4 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cor-texto-light);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-tags span {
+  background-color: var(--cor-fundo-alt);
+  border: 1px solid var(--cor-borda);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--cor-texto);
+  transition: all 0.2s ease;
+}
+
+.skill-tags span:hover {
+  border-color: var(--cor-accent);
+  color: var(--cor-accent);
+  transform: translateY(-1px);
+}
+
+/* ============================================================
+   RESPONSIVIDADE — SOBRE
+   ============================================================ */
+@media (max-width: 768px) {
+  .sobre-section {
+    padding: 60px 0;
+  }
+
+  .sobre-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills-grid {
+    flex-direction: column;
+  }
+
+  .skill-tags {
+    justify-content: center;
+  }
+}

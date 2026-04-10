@@ -1,0 +1,98 @@
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  background-color: var(--cor-primaria-dark);
+  color: var(--cor-branco);
+  padding: 60px 0 24px;
+}
+
+.section-title-light {
+  color: var(--cor-branco);
+}
+
+.section-title-light::after {
+  background-color: var(--cor-accent);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-info p {
+  color: #cbd5e0;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #cbd5e0;
+}
+
+.contact-list a {
+  color: var(--cor-accent);
+  transition: color 0.2s ease;
+}
+
+.contact-list a:hover {
+  color: #63b3ed;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius);
+  color: var(--cor-branco);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.social-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #a0aec0;
+}
+
+/* ============================================================
+   RESPONSIVIDADE — FOOTER
+   ============================================================ */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}

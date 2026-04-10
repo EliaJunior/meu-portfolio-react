@@ -1,0 +1,73 @@
+/* ============================================================
+   SEÇÃO — PROJETOS
+   ============================================================ */
+.projetos-section {
+  padding: 80px 0;
+  background-color: var(--cor-fundo-alt);
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--cor-texto-light);
+  margin-top: -28px;
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Filtros */
+.filtros {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.filtro-btn {
+  padding: 8px 20px;
+  border: 1px solid var(--cor-borda);
+  background-color: var(--cor-branco);
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--cor-texto-light);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.filtro-btn:hover {
+  border-color: var(--cor-accent);
+  color: var(--cor-accent);
+  transform: translateY(-1px);
+}
+
+.filtro-btn.active {
+  background-color: var(--cor-primaria);
+  color: var(--cor-branco);
+  border-color: var(--cor-primaria);
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.25);
+}
+
+/* Grid de cards */
+.projetos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+/* ============================================================
+   RESPONSIVIDADE — PROJETOS
+   ============================================================ */
+@media (max-width: 768px) {
+  .projetos-section {
+    padding: 60px 0;
+  }
+
+  .projetos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filtros {
+    flex-wrap: wrap;
+  }
+}
