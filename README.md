@@ -1,4 +1,4 @@
-# Portfólio — Elias Junior Cunha
+# Portfólio — Elias Junior
 
 Portfólio profissional desenvolvido com **React** e **Next.js**, apresentando projetos, habilidades e informações de contato.
 
